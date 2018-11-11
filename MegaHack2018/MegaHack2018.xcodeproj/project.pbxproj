@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		223A5DAF219743180088CFB0 /* ARComparisonScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A5DAE219743180088CFB0 /* ARComparisonScene.swift */; };
+		223A5DB1219760750088CFB0 /* ARBottomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A5DB0219760750088CFB0 /* ARBottomController.swift */; };
+		223A5DB4219761770088CFB0 /* UIImage+MH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A5DB3219761770088CFB0 /* UIImage+MH.swift */; };
+		223A5DB7219762940088CFB0 /* MHAREditProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A5DB6219762940088CFB0 /* MHAREditProductCollectionViewCell.swift */; };
+		223A5DB9219762AA0088CFB0 /* MHAREditProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 223A5DB8219762AA0088CFB0 /* MHAREditProductCollectionViewCell.xib */; };
+		223A5DBB21977FE20088CFB0 /* UIColor+MH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A5DBA21977FE20088CFB0 /* UIColor+MH.swift */; };
+		223A5DBE219785B10088CFB0 /* ARProductInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A5DBD219785B10088CFB0 /* ARProductInfoView.swift */; };
+		223A5DC4219825AD0088CFB0 /* AntutuSlow.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 223A5DC3219825AD0088CFB0 /* AntutuSlow.mp4 */; };
+		223A5DC821982A780088CFB0 /* Antutu.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 223A5DC721982A780088CFB0 /* Antutu.mp4 */; };
+		22DC05C52196F10800C94845 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC05C42196F10800C94845 /* AppDelegate.swift */; };
+		22DC05C72196F10800C94845 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DC05C62196F10800C94845 /* art.scnassets */; };
+		22DC05C92196F10800C94845 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC05C82196F10800C94845 /* ARViewController.swift */; };
+		22DC05CC2196F10800C94845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DC05CA2196F10800C94845 /* Main.storyboard */; };
+		22DC05CE2196F10900C94845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DC05CD2196F10900C94845 /* Assets.xcassets */; };
+		22DC05D12196F10900C94845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DC05CF2196F10900C94845 /* LaunchScreen.storyboard */; };
+		22DC05DA2196F3E900C94845 /* MHPhoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC05D92196F3E900C94845 /* MHPhoneModel.swift */; };
+		22DC05DC2196F45C00C94845 /* MHCapacityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC05DB2196F45C00C94845 /* MHCapacityModel.swift */; };
+		22DC05DE2196F47200C94845 /* MHDisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC05DD2196F47200C94845 /* MHDisplayModel.swift */; };
+		22DC05E02196F49300C94845 /* MHSizeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC05DF2196F49300C94845 /* MHSizeModel.swift */; };
+		22DC05E22196F4AD00C94845 /* MHFrontCameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC05E12196F4AD00C94845 /* MHFrontCameraModel.swift */; };
+		22DC05E42196F4BF00C94845 /* MHCameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC05E32196F4BF00C94845 /* MHCameraModel.swift */; };
+		22DC05E62196F4D400C94845 /* MHBackCameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC05E52196F4D400C94845 /* MHBackCameraModel.swift */; };
+		22DC05E82196F4EC00C94845 /* MHChipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC05E72196F4EC00C94845 /* MHChipModel.swift */; };
+		22DC05EA2196F50C00C94845 /* MHConnectionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC05E92196F50C00C94845 /* MHConnectionsModel.swift */; };
+		22DC05EC2196F52700C94845 /* MHAuthenticationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC05EB2196F52700C94845 /* MHAuthenticationModel.swift */; };
+		22DC05EE2196F54700C94845 /* MHBatteryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC05ED2196F54700C94845 /* MHBatteryModel.swift */; };
+		22DC05F02196F55E00C94845 /* MHSensorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC05EF2196F55E00C94845 /* MHSensorsModel.swift */; };
+		22DC05F22196F57100C94845 /* MHSimCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC05F12196F57100C94845 /* MHSimCardModel.swift */; };
+		22DC05F42196F59300C94845 /* MHConnectorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC05F32196F59300C94845 /* MHConnectorModel.swift */; };
+		22DC05F72196F5B700C94845 /* ARPhoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC05F62196F5B700C94845 /* ARPhoneModel.swift */; };
+		22DC05F92196F5F000C94845 /* MHPhoneNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC05F82196F5F000C94845 /* MHPhoneNode.swift */; };
+		22DC05FB2196F64F00C94845 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC05FA2196F64F00C94845 /* HomeScreenViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		223A5DAE219743180088CFB0 /* ARComparisonScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARComparisonScene.swift; sourceTree = "<group>"; };
+		223A5DB0219760750088CFB0 /* ARBottomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBottomController.swift; sourceTree = "<group>"; };
+		223A5DB3219761770088CFB0 /* UIImage+MH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+MH.swift"; sourceTree = "<group>"; };
+		223A5DB6219762940088CFB0 /* MHAREditProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHAREditProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		223A5DB8219762AA0088CFB0 /* MHAREditProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MHAREditProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		223A5DBA21977FE20088CFB0 /* UIColor+MH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+MH.swift"; sourceTree = "<group>"; };
+		223A5DBD219785B10088CFB0 /* ARProductInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARProductInfoView.swift; sourceTree = "<group>"; };
+		223A5DC3219825AD0088CFB0 /* AntutuSlow.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntutuSlow.mp4; sourceTree = "<group>"; };
+		223A5DC721982A780088CFB0 /* Antutu.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Antutu.mp4; path = ../../../../Desktop/Antutu.mp4; sourceTree = "<group>"; };
+		22DC05C12196F10800C94845 /* MegaHack2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaHack2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DC05C42196F10800C94845 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22DC05C62196F10800C94845 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		22DC05C82196F10800C94845 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		22DC05CB2196F10800C94845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22DC05CD2196F10900C94845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22DC05D02196F10900C94845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22DC05D22196F10900C94845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DC05D92196F3E900C94845 /* MHPhoneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHPhoneModel.swift; sourceTree = "<group>"; };
+		22DC05DB2196F45C00C94845 /* MHCapacityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHCapacityModel.swift; sourceTree = "<group>"; };
+		22DC05DD2196F47200C94845 /* MHDisplayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHDisplayModel.swift; sourceTree = "<group>"; };
+		22DC05DF2196F49300C94845 /* MHSizeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHSizeModel.swift; sourceTree = "<group>"; };
+		22DC05E12196F4AD00C94845 /* MHFrontCameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHFrontCameraModel.swift; sourceTree = "<group>"; };
+		22DC05E32196F4BF00C94845 /* MHCameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHCameraModel.swift; sourceTree = "<group>"; };
+		22DC05E52196F4D400C94845 /* MHBackCameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHBackCameraModel.swift; sourceTree = "<group>"; };
+		22DC05E72196F4EC00C94845 /* MHChipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHChipModel.swift; sourceTree = "<group>"; };
+		22DC05E92196F50C00C94845 /* MHConnectionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHConnectionsModel.swift; sourceTree = "<group>"; };
+		22DC05EB2196F52700C94845 /* MHAuthenticationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHAuthenticationModel.swift; sourceTree = "<group>"; };
+		22DC05ED2196F54700C94845 /* MHBatteryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHBatteryModel.swift; sourceTree = "<group>"; };
+		22DC05EF2196F55E00C94845 /* MHSensorsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHSensorsModel.swift; sourceTree = "<group>"; };
+		22DC05F12196F57100C94845 /* MHSimCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHSimCardModel.swift; sourceTree = "<group>"; };
+		22DC05F32196F59300C94845 /* MHConnectorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHConnectorModel.swift; sourceTree = "<group>"; };
+		22DC05F62196F5B700C94845 /* ARPhoneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPhoneModel.swift; sourceTree = "<group>"; };
+		22DC05F82196F5F000C94845 /* MHPhoneNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHPhoneNode.swift; sourceTree = "<group>"; };
+		22DC05FA2196F64F00C94845 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22DC05BE2196F10800C94845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		223A5DB22197616A0088CFB0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				223A5DB3219761770088CFB0 /* UIImage+MH.swift */,
+				223A5DBA21977FE20088CFB0 /* UIColor+MH.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		223A5DB5219762850088CFB0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				223A5DB6219762940088CFB0 /* MHAREditProductCollectionViewCell.swift */,
+				223A5DB8219762AA0088CFB0 /* MHAREditProductCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		223A5DBC219785A40088CFB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				223A5DBD219785B10088CFB0 /* ARProductInfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		22DC05B82196F10800C94845 = {
+			isa = PBXGroup;
+			children = (
+				22DC05C32196F10800C94845 /* MegaHack2018 */,
+				22DC05C22196F10800C94845 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22DC05C22196F10800C94845 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22DC05C12196F10800C94845 /* MegaHack2018.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22DC05C32196F10800C94845 /* MegaHack2018 */ = {
+			isa = PBXGroup;
+			children = (
+				223A5DBC219785A40088CFB0 /* Views */,
+				223A5DB5219762850088CFB0 /* Cells */,
+				223A5DB22197616A0088CFB0 /* Utils */,
+				22DC05F52196F59E00C94845 /* ARModels */,
+				22DC05D82196F3D700C94845 /* Models */,
+				22DC05C42196F10800C94845 /* AppDelegate.swift */,
+				22DC05C82196F10800C94845 /* ARViewController.swift */,
+				22DC05FA2196F64F00C94845 /* HomeScreenViewController.swift */,
+				223A5DC721982A780088CFB0 /* Antutu.mp4 */,
+				223A5DC3219825AD0088CFB0 /* AntutuSlow.mp4 */,
+				223A5DB0219760750088CFB0 /* ARBottomController.swift */,
+				22DC05C62196F10800C94845 /* art.scnassets */,
+				22DC05CA2196F10800C94845 /* Main.storyboard */,
+				22DC05CD2196F10900C94845 /* Assets.xcassets */,
+				22DC05CF2196F10900C94845 /* LaunchScreen.storyboard */,
+				22DC05D22196F10900C94845 /* Info.plist */,
+			);
+			path = MegaHack2018;
+			sourceTree = "<group>";
+		};
+		22DC05D82196F3D700C94845 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				22DC05D92196F3E900C94845 /* MHPhoneModel.swift */,
+				22DC05DB2196F45C00C94845 /* MHCapacityModel.swift */,
+				22DC05DD2196F47200C94845 /* MHDisplayModel.swift */,
+				22DC05DF2196F49300C94845 /* MHSizeModel.swift */,
+				22DC05E12196F4AD00C94845 /* MHFrontCameraModel.swift */,
+				22DC05E32196F4BF00C94845 /* MHCameraModel.swift */,
+				22DC05E52196F4D400C94845 /* MHBackCameraModel.swift */,
+				22DC05E72196F4EC00C94845 /* MHChipModel.swift */,
+				22DC05E92196F50C00C94845 /* MHConnectionsModel.swift */,
+				22DC05EB2196F52700C94845 /* MHAuthenticationModel.swift */,
+				22DC05ED2196F54700C94845 /* MHBatteryModel.swift */,
+				22DC05EF2196F55E00C94845 /* MHSensorsModel.swift */,
+				22DC05F12196F57100C94845 /* MHSimCardModel.swift */,
+				22DC05F32196F59300C94845 /* MHConnectorModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		22DC05F52196F59E00C94845 /* ARModels */ = {
+			isa = PBXGroup;
+			children = (
+				22DC05F62196F5B700C94845 /* ARPhoneModel.swift */,
+				22DC05F82196F5F000C94845 /* MHPhoneNode.swift */,
+				223A5DAE219743180088CFB0 /* ARComparisonScene.swift */,
+			);
+			path = ARModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22DC05C02196F10800C94845 /* MegaHack2018 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22DC05D52196F10900C94845 /* Build configuration list for PBXNativeTarget "MegaHack2018" */;
+			buildPhases = (
+				22DC05BD2196F10800C94845 /* Sources */,
+				22DC05BE2196F10800C94845 /* Frameworks */,
+				22DC05BF2196F10800C94845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MegaHack2018;
+			productName = MegaHack2018;
+			productReference = 22DC05C12196F10800C94845 /* MegaHack2018.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22DC05B92196F10800C94845 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Vlad Bonta";
+				TargetAttributes = {
+					22DC05C02196F10800C94845 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 22DC05BC2196F10800C94845 /* Build configuration list for PBXProject "MegaHack2018" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22DC05B82196F10800C94845;
+			productRefGroup = 22DC05C22196F10800C94845 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22DC05C02196F10800C94845 /* MegaHack2018 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22DC05BF2196F10800C94845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DC05C72196F10800C94845 /* art.scnassets in Resources */,
+				22DC05D12196F10900C94845 /* LaunchScreen.storyboard in Resources */,
+				223A5DC4219825AD0088CFB0 /* AntutuSlow.mp4 in Resources */,
+				223A5DC821982A780088CFB0 /* Antutu.mp4 in Resources */,
+				223A5DB9219762AA0088CFB0 /* MHAREditProductCollectionViewCell.xib in Resources */,
+				22DC05CE2196F10900C94845 /* Assets.xcassets in Resources */,
+				22DC05CC2196F10800C94845 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22DC05BD2196F10800C94845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DC05EC2196F52700C94845 /* MHAuthenticationModel.swift in Sources */,
+				22DC05E82196F4EC00C94845 /* MHChipModel.swift in Sources */,
+				22DC05F42196F59300C94845 /* MHConnectorModel.swift in Sources */,
+				223A5DB7219762940088CFB0 /* MHAREditProductCollectionViewCell.swift in Sources */,
+				22DC05DE2196F47200C94845 /* MHDisplayModel.swift in Sources */,
+				22DC05EE2196F54700C94845 /* MHBatteryModel.swift in Sources */,
+				22DC05DC2196F45C00C94845 /* MHCapacityModel.swift in Sources */,
+				22DC05DA2196F3E900C94845 /* MHPhoneModel.swift in Sources */,
+				22DC05C92196F10800C94845 /* ARViewController.swift in Sources */,
+				22DC05FB2196F64F00C94845 /* HomeScreenViewController.swift in Sources */,
+				22DC05F22196F57100C94845 /* MHSimCardModel.swift in Sources */,
+				223A5DB1219760750088CFB0 /* ARBottomController.swift in Sources */,
+				223A5DAF219743180088CFB0 /* ARComparisonScene.swift in Sources */,
+				22DC05C52196F10800C94845 /* AppDelegate.swift in Sources */,
+				22DC05EA2196F50C00C94845 /* MHConnectionsModel.swift in Sources */,
+				22DC05F92196F5F000C94845 /* MHPhoneNode.swift in Sources */,
+				223A5DBB21977FE20088CFB0 /* UIColor+MH.swift in Sources */,
+				22DC05F72196F5B700C94845 /* ARPhoneModel.swift in Sources */,
+				223A5DB4219761770088CFB0 /* UIImage+MH.swift in Sources */,
+				22DC05E62196F4D400C94845 /* MHBackCameraModel.swift in Sources */,
+				223A5DBE219785B10088CFB0 /* ARProductInfoView.swift in Sources */,
+				22DC05F02196F55E00C94845 /* MHSensorsModel.swift in Sources */,
+				22DC05E42196F4BF00C94845 /* MHCameraModel.swift in Sources */,
+				22DC05E02196F49300C94845 /* MHSizeModel.swift in Sources */,
+				22DC05E22196F4AD00C94845 /* MHFrontCameraModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22DC05CA2196F10800C94845 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22DC05CB2196F10800C94845 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22DC05CF2196F10900C94845 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22DC05D02196F10900C94845 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22DC05D32196F10900C94845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22DC05D42196F10900C94845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22DC05D62196F10900C94845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MegaHack2018/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MegaHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22DC05D72196F10900C94845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MegaHack2018/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MegaHack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22DC05BC2196F10800C94845 /* Build configuration list for PBXProject "MegaHack2018" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DC05D32196F10900C94845 /* Debug */,
+				22DC05D42196F10900C94845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22DC05D52196F10900C94845 /* Build configuration list for PBXNativeTarget "MegaHack2018" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DC05D62196F10900C94845 /* Debug */,
+				22DC05D72196F10900C94845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22DC05B92196F10800C94845 /* Project object */;
+}
